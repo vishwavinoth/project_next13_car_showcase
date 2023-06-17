@@ -17,7 +17,7 @@ const Footer = () => (
           className="object-contain"
         />
         <p className="text-base text-gray-700">
-          Carhub 2023 <br />
+        vishwaOffl 2023 <br />
           All Rights Reserved &copy;
         </p>
       </div>
@@ -43,7 +43,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyrights">
-      <p>@2022 CarHub. All rights reserved</p>
+      <p>@2023 vishwaOffl. All rights reserved</p>
 
       <div className="footer__copyrights-link">
         <Link href="/" className="text-gray-500">
