@@ -19,6 +19,7 @@ const ShowMore = ({ pageNumber, isNext, setLimit }: ShowMoreProps) => {
           title='Show More'
           containerStyles='bg-primary-blue rounded-full text-white'
           handleClick={handleNavigation}
+          rightIcon="/right-arrow.svg"
         />
       )}
     </div>
