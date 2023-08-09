@@ -1,5 +1,5 @@
 # Car Showcase | React, Next JS 13, TypeScript, Tailwind CSS
-![Car Showcase](https://asset.cloudinary.com/do7ntibpe/e85210a25109c28b3e6c3b1dc4020fc6)
+![Car Showcase](https://res.cloudinary.com/do7ntibpe/image/upload/v1691608165/Portfolio/project_next13_car_showcase_tvkqwg.png)
 
 ## Introduction
 The demand for Next.js 13 applications peaked! Now is the perfect time to build a state-of-the-art modern application that leverages all of the latest and greatest of what Next 13 has to offer, leveraging features such as server-side rendering and the app router. 
