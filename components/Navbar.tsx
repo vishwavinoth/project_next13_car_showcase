@@ -7,7 +7,7 @@ import CustomButton from "./CustomButton";
 
 const Navbar = () => {
   const handleVishwa = () => {
-    const url = "https://www.linkedin.com/in/vishwaoffl/"; // Replace with the URL of the website you want to open
+    const url = "https://www.linkedin.com/in/vishwaoffl/"; 
     window.open(url, "_blank");
   };
   return (
