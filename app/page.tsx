@@ -7,6 +7,7 @@ import { fetchCars } from "@/utils";
 import { fuels, yearsOfProduction } from "@/constants";
 import { CarCard, ShowMore, SearchBar, CustomFilter, Hero } from "@/components";
 import { CarState } from "@/types";
+import ApikeyExpired from '../components/apikeyExpired';
 
 export default function Home() {
   const [allCars, setAllCars] = useState<CarState>([]);
@@ -55,16 +56,14 @@ export default function Home() {
           <h1 className='text-4xl font-extrabold'>Car Catalogue</h1>
           <p>Explore out cars you might like</p>
         </div>
-
         <div className='home__filters'>
           <SearchBar setManuFacturer={setManuFacturer} setModel={setModel} />
-
           <div className='home__filter-container'>
             <CustomFilter options={fuels} setFilter={setFuel} />
             <CustomFilter options={yearsOfProduction} setFilter={setYear} />
           </div>
-        </div>
 
+        </div>
         {allCars.length > 0 ? (
           <section>
             <div className='home__cars-wrapper'>
@@ -99,6 +98,7 @@ export default function Home() {
             </div>
           )
         )}
+        <ApikeyExpired  />
       </div>
     </main>
   );
