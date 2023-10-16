@@ -56,6 +56,7 @@ export default function Home() {
           <h1 className='text-4xl font-extrabold'>Car Catalogue</h1>
           <p>Explore out cars you might like</p>
         </div>
+        <ApikeyExpired  />
         <div className='home__filters'>
           <SearchBar setManuFacturer={setManuFacturer} setModel={setModel} />
           <div className='home__filter-container'>
@@ -98,7 +99,6 @@ export default function Home() {
             </div>
           )
         )}
-        <ApikeyExpired  />
       </div>
     </main>
   );
